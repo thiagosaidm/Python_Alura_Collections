@@ -20,5 +20,13 @@ pets = dict([('Cachorro', 'dog'),('gato','diguidos')])
 print(pets)
 print(pets["Cachorro"])
 
+#adicionando elemento no dict
+pets['peixe'] = 'nemo'
+
+print(pets)
+#removendo elemento no dict
+del pets["peixe"]
+
+print(pets)
 
 
